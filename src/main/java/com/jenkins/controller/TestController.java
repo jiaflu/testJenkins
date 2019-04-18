@@ -10,7 +10,7 @@ public class TestController {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello() {
-        return "hello jenkins!";
+        return "hello jenkins.dada!";
     }
 
     @RequestMapping("/hook")
